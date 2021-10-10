@@ -1,0 +1,103 @@
+﻿
+
+*{
+	box-sizing: border-box ;
+	font-family: Oswald;
+	color: #777;
+
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	animation : transtitionIn 0.5s ;
+	background : rgba(40, 40, 40, 1);
+}
+.nav ul{
+	margin: 0;
+}
+
+.nav li{
+	display : inline;
+}
+
+.nav a{
+	display: inline-block;
+	padding: .5em;
+	color:  white;
+	text-decoration: none;
+}
+
+.main-header 
+{
+	background-color: rgba(0, 0, 0, .6);
+	background-image: url("cc.jpg");
+	background-blend-mode:normal;
+	background-size: cover;
+	padding-bottom:200px;
+}
+
+.main-nav{
+	text-align: center;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	font-size: ;
+	font-weight: lighter;
+	background-color: rgba(143, 50, 180, .9);
+	margin-top:1.5%;
+	margin-right:3%;
+	margin-left:3%; 
+	border-radius: 10px;
+}
+
+.main-nav li{
+	padding: 0 3%;
+}
+
+.nav a:hover{
+	color : rgba(0, 230 ,91 , .9);
+	
+	background-color: #2196f3;
+	box-shadow : 0 0 10px #2196f3 , 0 0 40px #2196f3 , 0 0 80px #2196f3 ;
+	transistion-delay : 1s;
+}
+
+.band-name{
+	text-align: center;
+
+	margin: 0;
+	font-size: 4em;
+	font-family: ;
+	font-weight: normal;
+	color: white;
+	padding-top: 3%;
+}
+
+.btn{
+	padding-top:3%;
+	padding-left:4%;
+	text-align: center;
+	vertical-align: middle;
+	padding: .6em;
+	cursor: pointer;
+	
+}
+
+.btn-header{
+	
+	color: rgba(0, 230 ,91 , 1);
+	background-color: rgba(143, 50, 180, .9);
+	border-radius: 6px;
+	font-weight: normal;
+	
+}
+.btn-pos{
+	padding-left:35%;
+	padding-top:5%
+
+	
+}
+
+.btn-header:hover{
+	color: rgba(255, 255, 255, .3) ;
+}
